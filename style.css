@@ -3,11 +3,18 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #010408;
+  font-family: 'Roboto', sans-serif;
+  color: #f0f0f0;
 }
 
 .form {
   display: flex;
   flex-direction: column;
+}
+
+.erro {
+  color: red;
 }
 
 input {
